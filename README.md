@@ -10,7 +10,7 @@ To use the `VectorStoreMiddleware`, you need to integrate it into your AI projec
 
 1. **Install Dependencies**: Ensure that you have the necessary dependencies installed. You can do this by running:
    ```bash
-   pip install vectorstore-middleware
+   pip install git+https://github.com/myschoolstory/VectorStoreMiddleware.git
    ```
 
 2. **Configure the Middleware**: Set up the middleware by specifying the vector store backend and any required credentials in your configuration file or environment variables.
